@@ -10,12 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class NavigationTests {
 
     public static void main(String[] args) {
-
         Browser("chrome");
         Browser("safari");
         //Browser("firefox");
         //Browser("edge");
-
     }
 
     public static void Browser(String browser) {
